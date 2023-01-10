@@ -84,14 +84,14 @@ function MainContent() {
   return <h1>I'm learning React!</h1>;
 }
 
-ReactDOM.render(
-  <div>
-    <Navbar />
-    <MainContent />
-    <ul>
-      <li>Home</li>
-      <li>Other</li>
-    </ul>
-  </div>,
-  document.querySelector(".root")
-);
+// ReactDOM.render(
+//   <div>
+//     <Navbar />
+//     <MainContent />
+//     <ul>
+//       <li>Home</li>
+//       <li>Other</li>
+//     </ul>
+//   </div>,
+//   document.querySelector(".root")
+// );
