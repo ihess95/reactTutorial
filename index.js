@@ -1,1 +1,7 @@
-ReactDOM.render(<h1>Hello, everyone!</h1>, document.querySelector(".root"));
+ReactDOM.render(
+  <ul>
+    <li>Home</li>
+    <li>Other</li>
+  </ul>,
+  document.querySelector(".root")
+);
